@@ -4,6 +4,7 @@
     <p>
       ABOUT
     </p>
+    <p>paragraph</p>
   </div>
 </template>
 
