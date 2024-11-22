@@ -3,7 +3,7 @@
     :default-active="activeIndex"
     text-color="#fff"
     active-text-color="#ffd04b"
-    background-color="rgb(42, 89, 137.5)"
+    background-color="rgb(43, 89, 137.5)"
     mode="horizontal"
     :ellipsis="false"
     router
