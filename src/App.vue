@@ -1,19 +1,17 @@
 <script setup>
 import Header from "./components/Header.vue";
-import { ref } from 'vue'
+import { ref } from "vue";
 import SidebarElement from "./components/SidebarElement.vue";
 
-
-const activeIndex = ref('1')
+const activeIndex = ref("1");
 const handleSelect = (key, keyPath) => {
-  console.log(key, keyPath)
-}
-
+  console.log(key, keyPath);
+};
 </script>
 
 <template>
-  <el-container class="layout-container-demo" >
-      <SidebarElement />
+  <el-container class="layout-container-demo">
+    <SidebarElement />
     <el-container>
       <!-- <el-header style="text-align: right; font-size: 12px">
         <div class="toolbar">
@@ -33,7 +31,7 @@ const handleSelect = (key, keyPath) => {
         </div>
       </el-header> -->
       <el-header>
-          <Header />
+        <Header />
       </el-header>
       <router-view />
     </el-container>
