@@ -2,39 +2,21 @@
   "tasks": [
     {
       "title": "yes update",
-      "completed": false,
-      "priority": "low",
+      "completed": true,
+      "priority": "medium",
       "id": 27
     },
     {
-      "title": "add",
+      "title": "add updaed",
       "completed": true,
       "priority": "low",
       "id": 32
     },
     {
       "title": "add tow",
-      "completed": true,
-      "priority": "high",
-      "id": 33
-    },
-    {
-      "title": "not",
-      "completed": true,
-      "priority": "medium",
-      "id": 36
-    },
-    {
-      "title": "now",
-      "completed": true,
-      "priority": "high",
-      "id": 37
-    },
-    {
-      "title": "about",
-      "completed": true,
+      "completed": false,
       "priority": "low",
-      "id": 38
+      "id": 33
     }
   ]
 }

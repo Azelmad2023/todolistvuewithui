@@ -9,7 +9,7 @@ export const useTodoStore = defineStore("todos", {
   actions: {
     async fetchTasks() {
       const response = await axios.get("tasks");
-      this.tasks = await response.data;
+      this.tasks = await response.data.reverse();
     },
 
     async addTask(taskFrom) {
